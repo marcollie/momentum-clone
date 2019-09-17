@@ -134,8 +134,20 @@ li {
     color: white;
 }
 
-.music {
+button {
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+audio {
     position: absolute;
     bottom: 0;
-    opacity: 50%;
+    width: 200px;
+    height: 25px;
+    opacity: 0.5;
 }
