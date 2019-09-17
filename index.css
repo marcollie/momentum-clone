@@ -3,6 +3,15 @@
     font-size: 60px;
     color: white;
     text-shadow: 0 0 20px #636e72;
+    margin-top: 100px;
+}
+
+.js-clock h1 {
+    margin: 0;
+}
+
+.form {
+    
 }
 
 .greeting-title {
@@ -41,12 +50,21 @@ body {
 .form,
 .greetings {
     display: none;
+    margin: 0;
 }
 
 .showing {
-    display: block;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+    text-shadow: 0 1px 5px rgba(0, 0, 0.1);
+    animation: fadeIn 1s linear;
 }
-
 
 @keyframes fadeIn {
     from {
